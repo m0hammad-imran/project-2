@@ -1,0 +1,106 @@
+body{
+	background: url(../img/bgg.jpg);
+	margin: 0px;
+	padding: 0px;
+	background-size: cover;
+	background-position: :  center;
+	font-family: 'Ubuntu', sans-serif;
+
+}
+.loginbox{
+	width: 350px;
+	height: 400px;
+	background: #a1a6a9;
+	color: #fff;
+	top: 50%
+    position: absolute;
+	transform: translate(50%,40%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+.user2{
+	width: 100px;
+    height: 100px;   
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+
+}
+.loginbox h1{
+	margin: 0px;
+    padding: 0px 0px 20px;
+    text-align: center;
+    font-size: 21px;
+
+
+}
+.loginbox p{
+	font-size: 20px
+}
+.loginbox input[type="text"]
+{
+	border: none;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    color: #fff;
+}
+.loginbox input[type="button"]
+{
+	margin: 10px 0px;
+    padding: 5px 20px;
+    background: #5cd0ff;
+    border: none;
+    color: #fff;
+    -webkit- transition: 0.4s;
+    -moz- transition: 0.4s;
+    -o- transition: 0.4s;
+    transition: 0.4s;
+
+}
+.button:hover{
+	cursor: pointer;
+    
+}
+.loginbox a{
+	color: white;
+
+}
+.loginbox a:hover{
+	    color: #5cd0ff;
+
+}
+/* Sign up section start */
+
+.container{
+	width: 360px;
+    height: 578px;
+    background-color: #a1a6a9;
+    margin: 80px 132px;
+}
+.container h1{
+	font-size: 25px;
+    padding: 7px 102px;
+    color: #ffff;
+    background-color: #5cd0ff;
+
+}
+.container form p{
+	padding: 0px 28px;
+    color: white;
+    font-size: 20px;
+
+}
+.container form input{
+	padding: 10px 28px;
+    margin: -7px 25px;
+    font-size: 15px;
+}
+.container input[type="submit"]{
+	padding: 11px 25px;
+    margin: 25px 24px;
+    background-color: #5cd0ff;
+    color: #ffff;
+    border: none;
+
+}
